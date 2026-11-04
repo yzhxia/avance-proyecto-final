@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pagina-inventario">
+        <header>
+            <h1>Inventario</h1>
+            <button id="btnCerrarSesion">Cerrar sesión</button>
+        </header>
+        <div class="formulario">
+            <h2>Agregar producto</h2>
+            <input type="text" id="nombre" placeholder="Nombre del producto">
+            <input type="text" id="descripcion" placeholder="Descripción">
+            <input type="number" id="precio" placeholder="Precio">
+            <input type="number" id="cantidad" placeholder="Cantidad">
+            <button id="btnAgregar">Agregar producto</button>
+            <p id="mensaje"></p>
+        </div>
+        <div class="tabla-productos">
+            <h2>Productos registrados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="listaProductos">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

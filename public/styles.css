@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+}
+.contenedor {
+    width: 90%;
+    max-width: 450px;
+    margin: 80px auto;
+    text-align: center;
+}
+h1 {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+.contenedor > p {
+    color: #777;
+    margin-bottom: 25px;
+}
+.formulario {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.formulario h2 {
+    margin-bottom: 20px;
+    color: #34495e;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2980b9;
+}
+#mensaje {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.pagina-inventario {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+header button {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #e74c3c;
+}
+header button:hover {
+    background-color: #c0392b;
+}
+.tabla-productos {
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+.tabla-productos h2 {
+    margin-bottom: 20px;
+    color: #34495e;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f4f8;
+    color: #34495e;
+}
+td button {
+    width: auto;
+    padding: 7px 10px;
+    margin: 2px;
+}
+.btn-eliminar {
+    background-color: #e74c3c;
+}
+.btn-eliminar:hover {
+    background-color: #c0392b;
+}
+.btn-editar {
+    background-color: #3498db;
+}
